@@ -42,8 +42,8 @@ public class CordovaIDELabWrapper extends CordovaPlugin {
 */
 
 	@Override 
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) { 
-		IntentAppointmentResult result = IntentAppointment.onActivityResult(requestCode, resultCode, data); 
+	public void onActivityResult(int requestCode, int resultCode, Intent data) { 
+		/*IntentAppointmentResult result = IntentAppointment.onActivityResult(requestCode, resultCode, data); 
 		if(result != null) { 
 			if(result.getCode() == RESULT_CANCELED) { 
 				Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show(); 
@@ -55,5 +55,6 @@ public class CordovaIDELabWrapper extends CordovaPlugin {
 		 else { 
 			super.onActivityResult(requestCode, resultCode, data); 
 			} 
-		}
+	*/	
+	}
 }
