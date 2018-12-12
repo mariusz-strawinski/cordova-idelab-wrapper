@@ -1,4 +1,4 @@
-package cordova-idelab-wrapper;
+package com.sgiti.CordovaIDELabWrapper;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
