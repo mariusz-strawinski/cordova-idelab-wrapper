@@ -11,13 +11,13 @@
 		
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="CordovaIDELabWrapper">
-				<param name="android-package" value="cordova-idelab-wrapper.CordovaIDELabWrapper" />
+				<param name="android-package" value="com.sgiti.CordovaIDELabWrapper" />
 			</feature>
 		</config-file>
 		
 		<config-file parent="/*" target="AndroidManifest.xml" />
 		
-		<source-file src="src/android/CordovaIDELabWrapper.java" target-dir="src/cordova-idelab-wrapper/CordovaIDELabWrapper" />
+		<source-file src="src/android/CordovaIDELabWrapper.java" target-dir="src/com/sgiti/CordovaIDELabWrapper" />
 	
 		<framework src="src/android/CordovaIDELabWrapper.gradle" custom="true" type="gradleReference" />
 		<resource-file src="src/android/external-IDELab.aar" target="libs/external-IDELab.aar" />
