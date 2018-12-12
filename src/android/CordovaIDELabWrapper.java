@@ -14,7 +14,7 @@ import android.util.Log;
 
 import java.util.Date;
 
-//import fr.selic.thuitexternal;
+import fr.selic.thuitexternal;
 
 /**
  * This class echoes a string called from JavaScript.
